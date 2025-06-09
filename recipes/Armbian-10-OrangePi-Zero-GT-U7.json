@@ -1,0 +1,28 @@
+{
+  "author": {
+    "name": "Dillon Baird",
+    "email": "",
+    "url": "https://dillonbaird.io/"
+  },
+  "date": "2021-11-24",
+  "os": {
+    "name": "Armbian",
+    "version": "10"
+  },
+  "server": {
+    "manufacturer": "Orange Pi",
+    "product": "Zero LTS"
+  },
+  "gnss": {
+    "manufacturer": "Goouuu Tech",
+    "product": "GT-U7"
+  },
+  "daemon": [
+    {
+      "name": "NTPsec",
+      "version": "1.2.3",
+      "accuracy": 0.00001
+    }
+  ],
+  "url": "https://dillonbaird.io/articles/stratum-1/"
+}

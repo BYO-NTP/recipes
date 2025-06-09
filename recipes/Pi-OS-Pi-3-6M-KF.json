@@ -1,0 +1,28 @@
+{
+  "author": {
+    "name": "Kenneth Finnegan",
+    "email": "",
+    "url": "https://blog.thelifeofkenneth.com/"
+  },
+  "date": "2020-03-01",
+  "os": {
+    "name": "Raspbian",
+    "version": ""
+  },
+  "server": {
+    "manufacturer": "Raspberry Pi",
+    "product": "2B"
+  },
+  "gnss": {
+    "manufacturer": "u-blox",
+    "product": "NEO-6M"
+  },
+  "daemon": [
+    {
+      "name": "ntp",
+      "version": "4.2.8",
+      "accuracy": 0.0001
+    }
+  ],
+  "url": "https://blog.thelifeofkenneth.com/2020/03/building-raspberry-pi-stratum-1-ntp.html"
+}

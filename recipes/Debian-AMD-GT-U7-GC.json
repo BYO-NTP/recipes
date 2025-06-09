@@ -1,0 +1,28 @@
+{
+  "author": {
+    "name": "Guanzhong Chen",
+    "email": "",
+    "url": "https://quantum5.ca/"
+  },
+  "date": "2023-01-24",
+  "os": {
+    "name": "Debian",
+    "version": ""
+  },
+  "server": {
+    "manufacturer": "Generic",
+    "product": "AMD"
+  },
+  "gnss": {
+    "manufacturer": "Goouuu Tech",
+    "product": "GT-U7"
+  },
+  "daemon": [
+    {
+      "name": "ntp",
+      "version": "4.2.8",
+      "accuracy": 0.000008
+    }
+  ],
+  "url": "https://quantum5.ca/2023/01/24/diy-stratum-1-ntp-server-with-serial-port/"
+}

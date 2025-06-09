@@ -2,6 +2,62 @@
   "recipes": [
     {
       "author": {
+        "name": "Dillon Baird",
+        "email": "",
+        "url": "https://dillonbaird.io/"
+      },
+      "date": "2021-11-24",
+      "os": {
+        "name": "Armbian",
+        "version": "10"
+      },
+      "server": {
+        "manufacturer": "Orange Pi",
+        "product": "Zero LTS"
+      },
+      "gnss": {
+        "manufacturer": "Goouuu Tech",
+        "product": "GT-U7"
+      },
+      "daemon": [
+        {
+          "name": "NTPsec",
+          "version": "1.2.3",
+          "accuracy": 0.00001
+        }
+      ],
+      "url": "https://dillonbaird.io/articles/stratum-1/"
+    },
+    {
+      "author": {
+        "name": "Guanzhong Chen",
+        "email": "",
+        "url": "https://quantum5.ca/"
+      },
+      "date": "2023-01-24",
+      "os": {
+        "name": "Debian",
+        "version": ""
+      },
+      "server": {
+        "manufacturer": "Generic",
+        "product": "AMD"
+      },
+      "gnss": {
+        "manufacturer": "Goouuu Tech",
+        "product": "GT-U7"
+      },
+      "daemon": [
+        {
+          "name": "ntp",
+          "version": "4.2.8",
+          "accuracy": 0.000008
+        }
+      ],
+      "url": "https://quantum5.ca/2023/01/24/diy-stratum-1-ntp-server-with-serial-port/"
+    },
+    {
+      "author": {
         "name": "Matt Simerson",
         "email": "",
         "url": "https://matt.simerson.net/"
@@ -181,7 +237,7 @@
         {
           "name": "chrony",
           "version": "4.6.1",
-          "accuracy": 0.000003
+          "accuracy": 0.00000191
         },
         {
           "name": "NTPsec",
@@ -399,6 +455,34 @@
         }
       ],
       "url": "https://reifschneider.digital/blog/high-precision-time-gps-raspberry-pi-ntp"
+    },
+    {
+      "author": {
+        "name": "Dakota G",
+        "email": "",
+        "url": "https://blog.shrunbr.dev/"
+      },
+      "date": "2025-01-20",
+      "os": {
+        "name": "Pi OS",
+        "version": ""
+      },
+      "server": {
+        "manufacturer": "Raspberry Pi",
+        "product": "3B"
+      },
+      "gnss": {
+        "manufacturer": "Goouuu Tech",
+        "product": "GT-U7"
+      },
+      "daemon": [
+        {
+          "name": "chrony",
+          "version": "4.6.1",
+          "accuracy": 0.000002
+        }
+      ],
+      "url": "https://blog.shrunbr.dev/posts/stratum-1-ntp/"
     },
     {
       "author": {
@@ -800,6 +884,34 @@
         }
       ],
       "url": "https://conorrobinson.ie/raspberry-pi-ntp-server-part-1/"
+    },
+    {
+      "author": {
+        "name": "Kenneth Finnegan",
+        "email": "",
+        "url": "https://blog.thelifeofkenneth.com/"
+      },
+      "date": "2020-03-01",
+      "os": {
+        "name": "Raspbian",
+        "version": ""
+      },
+      "server": {
+        "manufacturer": "Raspberry Pi",
+        "product": "2B"
+      },
+      "gnss": {
+        "manufacturer": "u-blox",
+        "product": "NEO-6M"
+      },
+      "daemon": [
+        {
+          "name": "ntp",
+          "version": "4.2.8",
+          "accuracy": 0.0001
+        }
+      ],
+      "url": "https://blog.thelifeofkenneth.com/2020/03/building-raspberry-pi-stratum-1-ntp.html"
     },
     {
       "author": {
