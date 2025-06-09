@@ -598,6 +598,34 @@
     },
     {
       "author": {
+        "name": "David Taylor",
+        "email": "",
+        "url": "https://www.satsignal.eu/"
+      },
+      "date": "2025-04-20",
+      "os": {
+        "name": "Pi OS",
+        "version": "12"
+      },
+      "server": {
+        "manufacturer": "Raspberry Pi",
+        "product": "5"
+      },
+      "gnss": {
+        "manufacturer": "Uputronics",
+        "product": "Pi GPS hat"
+      },
+      "daemon": [
+        {
+          "name": "ntp",
+          "version": "",
+          "accuracy": 0.00001
+        }
+      ],
+      "url": "https://www.satsignal.eu/ntp/RaspberryPi5.html"
+    },
+    {
+      "author": {
         "name": "Phil Randal",
         "email": "",
         "url": "https://www.philrandal.co.uk/blog/archives/2019/04/entry_213.html"
@@ -618,7 +646,7 @@
       "daemon": [
         {
           "name": "NTPsec",
-          "accuracy": 0.0001
+          "accuracy": 0.00001
         }
       ],
       "url": "https://www.philrandal.co.uk/blog/archives/2019/04/entry_213.html"
@@ -832,6 +860,34 @@
     },
     {
       "author": {
+        "name": "Dominik Schlösser",
+        "email": "",
+        "url": "https://github.com/domschl"
+      },
+      "date": "2024-04-30",
+      "os": {
+        "name": "Pi OS",
+        "version": "12"
+      },
+      "server": {
+        "manufacturer": "Raspberry Pi",
+        "product": "5"
+      },
+      "gnss": {
+        "manufacturer": "Adafruit",
+        "product": "Ultimate GPS hat"
+      },
+      "daemon": [
+        {
+          "name": "chrony",
+          "version": "4.6.1",
+          "accuracy": 0.000001
+        }
+      ],
+      "url": "https://github.com/domschl/RaspberryNtpServer"
+    },
+    {
+      "author": {
         "name": "Johannes Weber",
         "email": "",
         "url": "https://weberblog.net/"
@@ -860,11 +916,39 @@
     },
     {
       "author": {
+        "name": "Samantha Donaldson",
+        "email": "",
+        "url": ""
+      },
+      "date": "2017-02-22",
+      "os": {
+        "name": "Raspbian",
+        "version": "7"
+      },
+      "server": {
+        "manufacturer": "Raspberry Pi",
+        "product": "Model B"
+      },
+      "gnss": {
+        "manufacturer": "Adafruit",
+        "product": "Ultimate GPS Breakout"
+      },
+      "daemon": [
+        {
+          "name": "ntp",
+          "version": "4.2.8",
+          "accuracy": 0.0001
+        }
+      ],
+      "url": "https://developers.redhat.com/blog/2017/02/22/how-to-build-a-stratum-1-ntp-server-using-a-raspberry-pi"
+    },
+    {
+      "author": {
         "name": "David Taylor",
         "email": "",
         "url": "https://www.satsignal.eu/"
       },
-      "date": "2025-05-01",
+      "date": "2015-05-01",
       "os": {
         "name": "Raspbian",
         "version": "7"
@@ -972,6 +1056,34 @@
         }
       ],
       "url": "https://www.ntpsec.org/white-papers/stratum-1-microserver-howto/"
+    },
+    {
+      "author": {
+        "name": "Spookyghost",
+        "email": "",
+        "url": "https://blog.networkprofile.org/"
+      },
+      "date": "2023-07-10",
+      "os": {
+        "name": "Raspbian",
+        "version": ""
+      },
+      "server": {
+        "manufacturer": "Raspberry Pi",
+        "product": "Model 3B+"
+      },
+      "gnss": {
+        "manufacturer": "Goouuu Tech",
+        "product": "GT-U7"
+      },
+      "daemon": [
+        {
+          "name": "chrony",
+          "version": "",
+          "accuracy": 1e-7
+        }
+      ],
+      "url": "https://blog.networkprofile.org/gps-backed-local-ntp-server/"
     },
     {
       "author": {

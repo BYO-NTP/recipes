@@ -1,0 +1,28 @@
+{
+  "author": {
+    "name": "Dominik Schlösser",
+    "email": "",
+    "url": "https://github.com/domschl"
+  },
+  "date": "2024-04-30",
+  "os": {
+    "name": "Pi OS",
+    "version": "12"
+  },
+  "server": {
+    "manufacturer": "Raspberry Pi",
+    "product": "5"
+  },
+  "gnss": {
+    "manufacturer": "Adafruit",
+    "product": "Ultimate GPS hat"
+  },
+  "daemon": [
+    {
+      "name": "chrony",
+      "version": "4.6.1",
+      "accuracy": 0.000001
+    }
+  ],
+  "url": "https://github.com/domschl/RaspberryNtpServer"
+}

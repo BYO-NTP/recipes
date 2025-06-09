@@ -1,0 +1,28 @@
+{
+  "author": {
+    "name": "Samantha Donaldson",
+    "email": "",
+    "url": ""
+  },
+  "date": "2017-02-22",
+  "os": {
+    "name": "Raspbian",
+    "version": "7"
+  },
+  "server": {
+    "manufacturer": "Raspberry Pi",
+    "product": "Model B"
+  },
+  "gnss": {
+    "manufacturer": "Adafruit",
+    "product": "Ultimate GPS Breakout"
+  },
+  "daemon": [
+    {
+      "name": "ntp",
+      "version": "4.2.8",
+      "accuracy": 0.0001
+    }
+  ],
+  "url": "https://developers.redhat.com/blog/2017/02/22/how-to-build-a-stratum-1-ntp-server-using-a-raspberry-pi"
+}

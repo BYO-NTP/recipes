@@ -1,0 +1,28 @@
+{
+  "author": {
+    "name": "Spookyghost",
+    "email": "",
+    "url": "https://blog.networkprofile.org/"
+  },
+  "date": "2023-07-10",
+  "os": {
+    "name": "Raspbian",
+    "version": ""
+  },
+  "server": {
+    "manufacturer": "Raspberry Pi",
+    "product": "Model 3B+"
+  },
+  "gnss": {
+    "manufacturer": "Goouuu Tech",
+    "product": "GT-U7"
+  },
+  "daemon": [
+    {
+      "name": "chrony",
+      "version": "",
+      "accuracy": 0.0000001
+    }
+  ],
+  "url": "https://blog.networkprofile.org/gps-backed-local-ntp-server/"
+}

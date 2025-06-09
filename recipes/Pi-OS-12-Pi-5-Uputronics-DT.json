@@ -1,0 +1,28 @@
+{
+  "author": {
+    "name": "David Taylor",
+    "email": "",
+    "url": "https://www.satsignal.eu/"
+  },
+  "date": "2025-04-20",
+  "os": {
+    "name": "Pi OS",
+    "version": "12"
+  },
+  "server": {
+    "manufacturer": "Raspberry Pi",
+    "product": "5"
+  },
+  "gnss": {
+    "manufacturer": "Uputronics",
+    "product": "Pi GPS hat"
+  },
+  "daemon": [
+    {
+      "name": "ntp",
+      "version": "",
+      "accuracy": 0.00001
+    }
+  ],
+  "url": "https://www.satsignal.eu/ntp/RaspberryPi5.html"
+}

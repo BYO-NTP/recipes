@@ -20,7 +20,7 @@
   "daemon": [
     {
       "name": "NTPsec",
-      "accuracy": 0.0001
+      "accuracy": 0.00001
     }
   ],
   "url": "https://www.philrandal.co.uk/blog/archives/2019/04/entry_213.html"
