@@ -6,7 +6,7 @@
   },
   "date": "2018-06-27",
   "os": {
-    "name": "Raspbian Lite",
+    "name": "Raspbian",
     "version": "9"
   },
   "server": {
