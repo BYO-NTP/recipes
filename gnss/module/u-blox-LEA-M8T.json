@@ -1,6 +1,7 @@
 {
     "manufacturer": "u-blox",
     "product": "LEA-M8T",
+    "year": 2014,
     "firmware": "3.01",
     "gnss": {
         "supported": [ "gps", "glonass", "galileo", "beidou" ],

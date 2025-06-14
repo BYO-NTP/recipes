@@ -1,12 +1,14 @@
 {
     "manufacturer": "u-blox",
     "product": "7",
+    "year": 2012,
     "gnss": {
         "supported": [ "gps" ],
+        "augmentation": [ "SBAS" ],
         "concurrent": 1
     },
     "specs": {
-        "channels": 50,
+        "channels": 56,
         "update_rate": "1Hz",
         "sensitivity": {
             "tracking": "-160 dBm",

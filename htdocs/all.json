@@ -1773,7 +1773,52 @@
   "gnss/module": [
     {
       "manufacturer": "u-blox",
+      "product": "M10S",
+      "year": 2021,
+      "gnss": {
+        "supported": [
+          "gps",
+          "galileo",
+          "glonass",
+          "beidou"
+        ],
+        "augmentation": [
+          "QZSS",
+          "IMES",
+          "SBAS"
+        ],
+        "concurrent": 4
+      },
+      "specs": {
+        "channels": 92,
+        "update_rate": "10Hz",
+        "sensitivity": {
+          "tracking": "-167 dBm",
+          "acquisition": "-160 dBm"
+        },
+        "time_accuracy": "60ns"
+      },
+      "protocols": {
+        "NMEA": [
+          2.1,
+          2.3,
+          4,
+          0,
+          4.1,
+          4.11
+        ],
+        "UBX": [
+          18
+        ],
+        "RTCM": [
+          2.3
+        ]
+      }
+    },
+    {
+      "manufacturer": "u-blox",
       "product": "6",
+      "year": 2010,
       "gnss": {
         "supported": [
           "gps"
@@ -1802,14 +1847,18 @@
     {
       "manufacturer": "u-blox",
       "product": "7",
+      "year": 2012,
       "gnss": {
         "supported": [
           "gps"
         ],
+        "augmentation": [
+          "SBAS"
+        ],
         "concurrent": 1
       },
       "specs": {
-        "channels": 50,
+        "channels": 56,
         "update_rate": "1Hz",
         "sensitivity": {
           "tracking": "-160 dBm",
@@ -1831,6 +1880,7 @@
     {
       "manufacturer": "u-blox",
       "product": "LEA-M8T",
+      "year": 2014,
       "firmware": "3.01",
       "gnss": {
         "supported": [
@@ -1873,6 +1923,7 @@
     {
       "manufacturer": "u-blox",
       "product": "MAX-M8Q",
+      "year": 2014,
       "gnss": {
         "supported": [
           "gps",

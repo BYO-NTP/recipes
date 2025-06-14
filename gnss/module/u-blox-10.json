@@ -1,14 +1,14 @@
 {
     "manufacturer": "u-blox",
-    "product": "MAX-M8Q",
-    "year": 2014,
+    "product": "M10S",
+    "year": 2021,
     "gnss": {
-        "supported": [ "gps", "glonass", "galileo", "beidou" ],
-        "augmentation": [ "SBAS", "QZSS", "IMES", "D-GPS" ],
-        "concurrent": 3
+        "supported": [ "gps", "galileo", "glonass", "beidou" ],
+        "augmentation": [ "QZSS", "IMES", "SBAS" ],
+        "concurrent": 4
     },
     "specs": {
-        "channels": 72,
+        "channels": 92,
         "update_rate": "10Hz",
         "sensitivity": {
             "tracking": "-167 dBm",
@@ -17,7 +17,7 @@
         "time_accuracy": "60ns"
     },
     "protocols": {
-        "NMEA": [ 2.1, 2.3, 4.1 ],
+        "NMEA": [ 2.1, 2.3, 4,0, 4.10, 4.11 ],
         "UBX": [ 18 ],
         "RTCM": [ 2.3 ]
     }
