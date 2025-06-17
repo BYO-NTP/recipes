@@ -1,0 +1,33 @@
+{
+  "author": {
+    "name": "Rob Robinette",
+    "email": "",
+    "url": "https://robrobinette.com/"
+  },
+  "date": "2019-12-04",
+  "os": {
+    "name": "Pi OS 11 (Bullseye)",
+    "version": "11"
+  },
+  "server": {
+    "manufacturer": "Raspberry Pi",
+    "product": "3"
+  },
+  "gnss": {
+    "manufacturer": "u-blox",
+    "product": "NEO-6M"
+  },
+  "daemon": [
+    {
+      "name": "chrony",
+      "version": "",
+      "accuracy": 0.000000481
+    },
+    {
+      "name": "ntp",
+      "version": "4.2.8",
+      "accuracy": 0.002
+    }
+  ],
+  "url": "https://robrobinette.com/pi_GPS_PPS_Time_Server.htm"
+}

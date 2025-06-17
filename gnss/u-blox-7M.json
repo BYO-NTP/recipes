@@ -1,0 +1,38 @@
+{
+    "manufacturer": "Bear",
+    "product": {
+        "name": "NEO-7M",
+        "revision": "",
+        "url": "https://www.aliexpress.us/item/3256806531779498.html"
+    },
+    "module": {
+        "manufacturer": "u-blox",
+        "product": "NEO-7M"
+    },
+    "in_production": true,
+    "accuracy": {
+        "class": "µs"
+    },
+    "interface": [ "USB", "UART" ],
+    "pps": true,
+    "rtc": {
+        "chip": "",
+        "battery": "coin cell"
+    },
+    "software": [ "u-center", "gpsd" ],
+    "usb": {
+        "version": [ 2 ],
+        "connectors": [ "micro" ]
+    },
+    "price": {
+        "msrp": 7,
+        "range": "0-20"
+    },
+    "vendors": [
+        {
+            "name": "Customers Are God",
+            "url": "https://www.aliexpress.us/item/3256806531779498.html",
+            "total": "7.08"
+        }
+    ]
+}

@@ -430,6 +430,39 @@
     },
     {
       "author": {
+        "name": "Rob Robinette",
+        "email": "",
+        "url": "https://robrobinette.com/"
+      },
+      "date": "2019-12-04",
+      "os": {
+        "name": "Pi OS 11 (Bullseye)",
+        "version": "11"
+      },
+      "server": {
+        "manufacturer": "Raspberry Pi",
+        "product": "3"
+      },
+      "gnss": {
+        "manufacturer": "u-blox",
+        "product": "NEO-6M"
+      },
+      "daemon": [
+        {
+          "name": "chrony",
+          "version": "",
+          "accuracy": 4.81e-7
+        },
+        {
+          "name": "ntp",
+          "version": "4.2.8",
+          "accuracy": 0.002
+        }
+      ],
+      "url": "https://robrobinette.com/pi_GPS_PPS_Time_Server.htm"
+    },
+    {
+      "author": {
         "name": "Sven Reifschneider",
         "email": "",
         "url": "https://reifschneider.digital/"
@@ -1766,6 +1799,102 @@
         {
           "name": "Spotpear",
           "url": "https://spotpear.com/index/product/detail/id/441.html"
+        }
+      ]
+    },
+    {
+      "manufacturer": "Bear",
+      "product": {
+        "name": "NEO-7M",
+        "revision": "",
+        "url": "https://www.aliexpress.us/item/3256806531779498.html"
+      },
+      "module": {
+        "manufacturer": "u-blox",
+        "product": "NEO-7M"
+      },
+      "in_production": true,
+      "accuracy": {
+        "class": "µs"
+      },
+      "interface": [
+        "USB",
+        "UART"
+      ],
+      "pps": true,
+      "rtc": {
+        "chip": "",
+        "battery": "coin cell"
+      },
+      "software": [
+        "u-center",
+        "gpsd"
+      ],
+      "usb": {
+        "version": [
+          2
+        ],
+        "connectors": [
+          "micro"
+        ]
+      },
+      "price": {
+        "msrp": 7,
+        "range": "0-20"
+      },
+      "vendors": [
+        {
+          "name": "Customers Are God",
+          "url": "https://www.aliexpress.us/item/3256806531779498.html",
+          "total": "7.08"
+        }
+      ]
+    },
+    {
+      "manufacturer": "Bear",
+      "product": {
+        "name": "NEO-M8N",
+        "revision": "",
+        "url": "https://www.aliexpress.us/item/3256806531779498.html"
+      },
+      "module": {
+        "manufacturer": "u-blox",
+        "product": "NEO-M8N"
+      },
+      "in_production": true,
+      "accuracy": {
+        "class": "µs"
+      },
+      "interface": [
+        "USB",
+        "UART"
+      ],
+      "pps": true,
+      "rtc": {
+        "chip": "",
+        "battery": "coin cell"
+      },
+      "software": [
+        "u-center",
+        "gpsd"
+      ],
+      "usb": {
+        "version": [
+          2
+        ],
+        "connectors": [
+          "micro"
+        ]
+      },
+      "price": {
+        "msrp": 18,
+        "range": "0-20"
+      },
+      "vendors": [
+        {
+          "name": "AliExpress / Customers Are God",
+          "url": "https://www.aliexpress.us/item/3256806531779498.html",
+          "total": "18.08"
         }
       ]
     }
