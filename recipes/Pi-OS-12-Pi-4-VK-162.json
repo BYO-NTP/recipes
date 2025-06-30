@@ -21,17 +21,17 @@
     {
       "name": "chrony",
       "version": "4.6.1",
-      "accuracy": 0.01
+      "accuracy": 0.00678
     },
     {
       "name": "NTPsec",
       "version": "1.2.3",
-      "accuracy": 0.01
+      "accuracy": 0.00621
     },
     {
       "name": "ntp",
       "version": "4.2.8",
-      "accuracy": 0.01
+      "accuracy": 0.00602
     }
   ],
   "url": "https://github.com/BYO-NTP/recipes/wiki/Pi-OS-12-VK%E2%80%90162"

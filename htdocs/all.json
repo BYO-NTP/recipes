@@ -119,17 +119,17 @@
         {
           "name": "chrony",
           "version": "4.6.1",
-          "accuracy": 0.0000117
+          "accuracy": 0.0000126
         },
         {
           "name": "NTPsec",
           "version": "1.2.3",
-          "accuracy": 0.000099
+          "accuracy": 0.000045
         },
         {
           "name": "ntp",
           "version": "4.2.8",
-          "accuracy": 0.00797
+          "accuracy": 0.000023
         }
       ],
       "url": "https://github.com/BYO-NTP/recipes/wiki/FreeBSD-14-USB-M8T"
@@ -162,7 +162,7 @@
         {
           "name": "NTPsec",
           "version": "1.2.3",
-          "accuracy": 0.0379
+          "accuracy": 0.015
         },
         {
           "name": "ntp",
@@ -277,17 +277,17 @@
         {
           "name": "chrony",
           "version": "4.6.1",
-          "accuracy": 0.00266
+          "accuracy": 0.00194
         },
         {
           "name": "NTPsec",
           "version": "1.2.3",
-          "accuracy": 0.00577
+          "accuracy": 0.00278
         },
         {
           "name": "ntp",
           "version": "4.2.8",
-          "accuracy": 0.01
+          "accuracy": 0.00374
         }
       ],
       "url": "https://github.com/BYO-NTP/recipes/wiki/FreeBSD-14-USB-VK%E2%80%90162"
@@ -330,7 +330,7 @@
           "accuracy": 0.014
         }
       ],
-      "url": "https://github.com/BYO-NTP/recipes/wiki/FreeBSD-14-Pi-5-MAX%E2%80%90M8Q"
+      "url": "https://github.com/BYO-NTP/recipes/wiki/FreeBSD-14-USB-M8Q"
     },
     {
       "author": {
@@ -367,7 +367,7 @@
         {
           "name": "ntp",
           "version": "4.2.8",
-          "accuracy": 0.01
+          "accuracy": 0.00551
         }
       ],
       "url": "https://github.com/BYO-NTP/recipes/wiki/FreeBSD-14-USB-VK%E2%80%90162"
@@ -619,17 +619,17 @@
         {
           "name": "chrony",
           "version": "4.6.1",
-          "accuracy": 0.01
+          "accuracy": 0.00678
         },
         {
           "name": "NTPsec",
           "version": "1.2.3",
-          "accuracy": 0.01
+          "accuracy": 0.00621
         },
         {
           "name": "ntp",
           "version": "4.2.8",
-          "accuracy": 0.01
+          "accuracy": 0.00602
         }
       ],
       "url": "https://github.com/BYO-NTP/recipes/wiki/Pi-OS-12-VK%E2%80%90162"
