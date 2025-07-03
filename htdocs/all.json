@@ -93,7 +93,7 @@
           "accuracy": 0.0272
         }
       ],
-      "url": "https://github.com/BYO-NTP/recipes/wiki/FreeBSD-14-USB-6M"
+      "url": "https://github.com/BYO-NTP/recipes/wiki/FreeBSD-14-USB"
     },
     {
       "author": {
@@ -132,7 +132,7 @@
           "accuracy": 0.000023
         }
       ],
-      "url": "https://github.com/BYO-NTP/recipes/wiki/FreeBSD-14-USB-M8T"
+      "url": "https://github.com/BYO-NTP/recipes/wiki/FreeBSD-14-USB"
     },
     {
       "author": {
@@ -170,7 +170,7 @@
           "accuracy": 0.0104
         }
       ],
-      "url": "https://github.com/BYO-NTP/recipes/wiki/FreeBSD-14-USB-VK%E2%80%90162"
+      "url": "https://github.com/BYO-NTP/recipes/wiki/FreeBSD-14-USB"
     },
     {
       "author": {
@@ -210,7 +210,7 @@
           "accuracy": 0.000004
         }
       ],
-      "url": "https://github.com/BYO-NTP/recipes/wiki/FreeBSD-14-Pi-4-M8T"
+      "url": "https://github.com/BYO-NTP/recipes/wiki/FreeBSD-14-Pi-4-GPIO"
     },
     {
       "author": {
@@ -250,7 +250,7 @@
           "accuracy": 0.000011
         }
       ],
-      "url": "https://github.com/BYO-NTP/recipes/wiki/FreeBSD-14-Pi-4-MAX%E2%80%90M8Q"
+      "url": "https://github.com/BYO-NTP/recipes/wiki/FreeBSD-14-Pi-4-GPIO"
     },
     {
       "author": {
@@ -290,7 +290,7 @@
           "accuracy": 0.00374
         }
       ],
-      "url": "https://github.com/BYO-NTP/recipes/wiki/FreeBSD-14-USB-VK%E2%80%90162"
+      "url": "https://github.com/BYO-NTP/recipes/wiki/FreeBSD-14-USB"
     },
     {
       "author": {
@@ -330,7 +330,7 @@
           "accuracy": 0.014
         }
       ],
-      "url": "https://github.com/BYO-NTP/recipes/wiki/FreeBSD-14-USB-M8Q"
+      "url": "https://github.com/BYO-NTP/recipes/wiki/FreeBSD-14-USB"
     },
     {
       "author": {
@@ -370,7 +370,7 @@
           "accuracy": 0.00551
         }
       ],
-      "url": "https://github.com/BYO-NTP/recipes/wiki/FreeBSD-14-USB-VK%E2%80%90162"
+      "url": "https://github.com/BYO-NTP/recipes/wiki/FreeBSD-14-USB"
     },
     {
       "author": {
@@ -619,7 +619,7 @@
         {
           "name": "chrony",
           "version": "4.6.1",
-          "accuracy": 0.00678
+          "accuracy": 0.00101
         },
         {
           "name": "NTPsec",
