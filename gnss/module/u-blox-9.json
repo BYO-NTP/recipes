@@ -1,15 +1,15 @@
 {
     "manufacturer": "u-blox",
-    "product": "M10S",
-    "year": 2021,
+    "product": "M9140",
+    "year": "",
     "gnss": {
         "supported": [ "gps", "galileo", "glonass", "beidou" ],
-        "augmentation": [ "QZSS", "IMES", "SBAS" ],
+        "augmentation": [ "QZSS", "SBAS" ],
         "concurrent": 4
     },
     "specs": {
         "channels": 92,
-        "update_rate": "10Hz",
+        "update_rate": "25Hz",
         "sensitivity": {
             "tracking": "-167 dBm",
             "acquisition": "-160 dBm",
@@ -18,8 +18,8 @@
         "time_accuracy": "60ns"
     },
     "protocols": {
-        "NMEA": [ 2.1, 2.3, 4,0, 4.10, 4.11 ],
-        "UBX": [ 18 ],
-        "RTCM": [ 2.3 ]
+        "NMEA": [ 2.1, 2.3, 4,0, 4.10 ],
+        "UBX": [  ],
+        "RTCM": [ 3.3 ]
     }
 }

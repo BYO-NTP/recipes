@@ -210,7 +210,7 @@
           "accuracy": 0.000004
         }
       ],
-      "url": "https://github.com/BYO-NTP/recipes/wiki/FreeBSD-14-Pi-4-GPIO"
+      "url": "https://github.com/BYO-NTP/recipes/wiki/FreeBSD-14-GPIO"
     },
     {
       "author": {
@@ -250,7 +250,7 @@
           "accuracy": 0.000011
         }
       ],
-      "url": "https://github.com/BYO-NTP/recipes/wiki/FreeBSD-14-Pi-4-GPIO"
+      "url": "https://github.com/BYO-NTP/recipes/wiki/FreeBSD-14-GPIO"
     },
     {
       "author": {
@@ -556,7 +556,7 @@
           "accuracy": 0.000004
         }
       ],
-      "url": "https://github.com/BYO-NTP/recipes/wiki/Pi-OS-12-M8T"
+      "url": "https://github.com/BYO-NTP/recipes/wiki/Pi-OS-12-GPIO"
     },
     {
       "author": {
@@ -594,7 +594,7 @@
           "accuracy": 0.000003
         }
       ],
-      "url": "https://github.com/BYO-NTP/recipes/wiki/Pi-OS-12-M8Q"
+      "url": "https://github.com/BYO-NTP/recipes/wiki/Pi-OS-12-GPIO"
     },
     {
       "author": {
@@ -632,7 +632,7 @@
           "accuracy": 0.00602
         }
       ],
-      "url": "https://github.com/BYO-NTP/recipes/wiki/Pi-OS-12-VK%E2%80%90162"
+      "url": "https://github.com/BYO-NTP/recipes/wiki/Pi-OS-12-USB"
     },
     {
       "author": {
@@ -673,7 +673,7 @@
           "accuracy": 0.000003
         }
       ],
-      "url": "https://github.com/BYO-NTP/recipes/wiki/Pi-OS-12-M8T"
+      "url": "https://github.com/BYO-NTP/recipes/wiki/Pi-OS-12-GPIO"
     },
     {
       "author": {
@@ -711,7 +711,7 @@
           "accuracy": 0.000002
         }
       ],
-      "url": "https://github.com/BYO-NTP/recipes/wiki/Pi-OS-12-M8Q"
+      "url": "https://github.com/BYO-NTP/recipes/wiki/Pi-OS-12-GPIO"
     },
     {
       "author": {
@@ -832,7 +832,7 @@
           "accuracy": 0.01
         }
       ],
-      "url": "https://github.com/BYO-NTP/recipes/wiki/Pi-OS-12-VK%E2%80%90162"
+      "url": "https://github.com/BYO-NTP/recipes/wiki/Pi-OS-12-USB"
     },
     {
       "author": {
@@ -1256,7 +1256,7 @@
           "accuracy": 0.0136
         }
       ],
-      "url": "https://github.com/BYO-NTP/recipes/wiki/Windows-11-Larkbox-VK162"
+      "url": "https://github.com/BYO-NTP/recipes/wiki/Windows-11-USB"
     }
   ],
   "server": [
@@ -1396,6 +1396,25 @@
     }
   ],
   "os": [
+    {
+      "name": "Debian",
+      "family": [
+        "linux"
+      ],
+      "releases": [
+        {
+          "name": "Debian Server",
+          "codename": "",
+          "major": "12",
+          "minor": "11",
+          "patch": "",
+          "pps": [
+            "kernel"
+          ],
+          "ptp": []
+        }
+      ]
+    },
     {
       "name": "FreeBSD",
       "family": [
@@ -1923,7 +1942,8 @@
         "update_rate": "10Hz",
         "sensitivity": {
           "tracking": "-167 dBm",
-          "acquisition": "-160 dBm"
+          "acquisition": "-160 dBm",
+          "cold_start": "-148 dBm"
         },
         "time_accuracy": "60ns"
       },
@@ -2004,6 +2024,47 @@
           14
         ],
         "RTCM": []
+      }
+    },
+    {
+      "manufacturer": "u-blox",
+      "product": "M9140",
+      "year": "",
+      "gnss": {
+        "supported": [
+          "gps",
+          "galileo",
+          "glonass",
+          "beidou"
+        ],
+        "augmentation": [
+          "QZSS",
+          "SBAS"
+        ],
+        "concurrent": 4
+      },
+      "specs": {
+        "channels": 92,
+        "update_rate": "25Hz",
+        "sensitivity": {
+          "tracking": "-167 dBm",
+          "acquisition": "-160 dBm",
+          "cold_start": "-148 dBm"
+        },
+        "time_accuracy": "60ns"
+      },
+      "protocols": {
+        "NMEA": [
+          2.1,
+          2.3,
+          4,
+          0,
+          4.1
+        ],
+        "UBX": [],
+        "RTCM": [
+          3.3
+        ]
       }
     },
     {

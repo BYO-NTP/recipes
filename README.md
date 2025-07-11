@@ -17,16 +17,12 @@ The BYO-NTP project's main goal is to encourage new Stratum 1 NTP server builds.
 
 ## BYO-NTP Resources
 
-- [All Recipes](https://byo-ntp.github.io/) aims to be a complete list of NTP build recipes.
-- [BYO-NTP Recipes](https://byo-ntp.github.io/byontp-recipes.html) is a filterable list.
-- The [wiki](https://github.com/BYO-NTP/recipes/wiki) has BYO-NTP published NTP build recipes.
-- The [tools repo](https://github.com/BYO-NTP/tools) has scripts for deploying and tuning NTP servers as well as measuring and graphing their performance.
-- [ntp-offset.sh](https://github.com/BYO-NTP/recipes/wiki/offset) is for tuning the NMEA & PPS offsets in a NTP config.
-- [NTP servers via DNS SRV](https://byo-ntp.github.io/srv-lookup.html).
-- BYO-NTP Git repos:
-   - [recipes](https://github.com/BYO-NTP/recipes): the metadata about each build
-   - recipes [wiki](https://github.com/BYO-NTP/recipes/wiki): BYO-NTP build recipes
-   - [tools](https://github.com/BYO-NTP/tools): shell scripts for build automation
-   - [byo-ntp.github.io](https://github.com/BYO-NTP/BYO-NTP.github.io): the NTP build recipe search tool
+- Web Tools
+  - [All Recipes](https://byo-ntp.github.io/) aims to be a complete list of NTP build recipes. The source code is [here](https://github.com/BYO-NTP/BYO-NTP.github.io).
+  - [BYO-NTP Recipes](https://byo-ntp.github.io/byontp-recipes.html) is a filterable list. The source is in the [recipes](https://github.com/BYO-NTP/recipes) repo.
+  - [NTP servers via DNS SRV](https://byo-ntp.github.io/srv-lookup.html).
+- The [recipes wiki](https://github.com/BYO-NTP/recipes/wiki) has BYO-NTP published NTP build recipes.
+- The [tools git repo](https://github.com/BYO-NTP/tools) has scripts for deploying and tuning NTP servers as well as measuring and graphing their performance.
+  - [ntp-offset.sh](https://github.com/BYO-NTP/recipes/wiki/offset) is for tuning the NMEA & PPS offsets in a NTP config.
 
 To contribute to this project, please see the [DEVELOP](https://github.com/BYO-NTP/recipes/blob/main/DEVELOP.md) page.
