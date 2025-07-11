@@ -1,0 +1,15 @@
+{
+    "name": "Debian",
+    "family": [ "linux" ],
+    "releases": [
+        {
+            "name": "Debian Server",
+            "codename": "",
+            "major": "12",
+            "minor": "11",
+            "patch": "",
+            "pps": [ "kernel" ],
+            "ptp": [ ]
+        }
+    ]
+}

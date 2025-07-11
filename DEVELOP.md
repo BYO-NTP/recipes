@@ -4,13 +4,13 @@ The intent of this site is to provide a repository of information useful to anyo
 
 The information in this repo is organized as follows:
 
-| Path     | Purpose |
-| -------- | --------------- |
-| ./daemon | information about the NTP daemons |
+| Path       | Purpose |
+| ---------- | --------------- |
 | ./gnss/*.json | info on distinct GNSS products well-suited to a NTP build |
 | ./gnss/module/*.json | info of the GNSS chips that power those products |
-| ./os/  | Operating Systems well-suited for use in a NTP server |
-| ./server | Physical servers (CPU, RAM, storage) on which to run a NTP server |
+| ./os/      | Operating Systems well-suited for use in a NTP server |
+| ./recipes/ | Meta information about each build recipe |
+| ./server   | Physical servers (CPU, RAM, storage) on which to run a NTP server |
 
 
 ## PROCESS

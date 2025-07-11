@@ -8,4 +8,4 @@ The [BYO-NTP wiki](https://github.com/BYO-NTP/recipes/wiki) has information rele
 
 The [BYO-NTP tools repo](https://github.com/BYO-NTP/tools) has scripts for deploying and tuning NTP servers as well as measuring and graphing their performance.
 
-To contribute to this site, please see the [DEVELOP](DEVELOP.md) page.
+To contribute to this site, please see the [DEVELOP](https://github.com/BYO-NTP/recipes/blob/main/DEVELOP.md) page.
