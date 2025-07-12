@@ -90,7 +90,85 @@
         {
           "name": "ntp",
           "version": "4.2.8",
-          "accuracy": 0.0272
+          "accuracy": 0.0217
+        }
+      ],
+      "url": "https://github.com/BYO-NTP/recipes/wiki/FreeBSD-14-USB"
+    },
+    {
+      "author": {
+        "name": "Matt Simerson",
+        "email": "",
+        "url": "https://matt.simerson.net/"
+      },
+      "date": "2025-07-11",
+      "os": {
+        "name": "FreeBSD",
+        "version": "14"
+      },
+      "server": {
+        "manufacturer": "Chuwi",
+        "product": "Larkbox X"
+      },
+      "gnss": {
+        "manufacturer": "u-blox",
+        "product": "7M",
+        "revision": ""
+      },
+      "daemon": [
+        {
+          "name": "chrony",
+          "version": "4.6.1",
+          "accuracy": 0.0000049
+        },
+        {
+          "name": "NTPsec",
+          "version": "1.2.3",
+          "accuracy": 0.000072
+        },
+        {
+          "name": "ntp",
+          "version": "4.2.8",
+          "accuracy": 0.000051
+        }
+      ],
+      "url": "https://github.com/BYO-NTP/recipes/wiki/FreeBSD-14-USB"
+    },
+    {
+      "author": {
+        "name": "Matt Simerson",
+        "email": "",
+        "url": "https://matt.simerson.net/"
+      },
+      "date": "2025-07-11",
+      "os": {
+        "name": "FreeBSD",
+        "version": "14"
+      },
+      "server": {
+        "manufacturer": "Chuwi",
+        "product": "Larkbox X"
+      },
+      "gnss": {
+        "manufacturer": "Waveshare",
+        "product": "MAX-M8Q GNSS HAT",
+        "revision": ""
+      },
+      "daemon": [
+        {
+          "name": "chrony",
+          "version": "4.6.1",
+          "accuracy": 0.00000191
+        },
+        {
+          "name": "NTPsec",
+          "version": "1.2.3",
+          "accuracy": 0.000064
+        },
+        {
+          "name": "ntp",
+          "version": "4.2.8",
+          "accuracy": 0.000057
         }
       ],
       "url": "https://github.com/BYO-NTP/recipes/wiki/FreeBSD-14-USB"
@@ -178,7 +256,7 @@
         "email": "",
         "url": "https://matt.simerson.net/"
       },
-      "date": "2025-05-22",
+      "date": "2025-07-11",
       "os": {
         "name": "FreeBSD",
         "version": "14"
@@ -190,24 +268,25 @@
         "revision": "1.4"
       },
       "gnss": {
-        "manufacturer": "Huawei",
-        "product": "WD22UGRC"
+        "manufacturer": "u-blox",
+        "product": "6M",
+        "revision": ""
       },
       "daemon": [
         {
           "name": "chrony",
           "version": "4.6.1",
-          "accuracy": 0.00000141
+          "accuracy": 5.22e-7
         },
         {
           "name": "NTPsec",
           "version": "1.2.3",
-          "accuracy": 0.000007
+          "accuracy": 0.000011
         },
         {
           "name": "ntp",
           "version": "4.2.8",
-          "accuracy": 0.000004
+          "accuracy": 0.000012
         }
       ],
       "url": "https://github.com/BYO-NTP/recipes/wiki/FreeBSD-14-GPIO"
@@ -248,6 +327,46 @@
           "name": "ntp",
           "version": "4.2.8",
           "accuracy": 0.000011
+        }
+      ],
+      "url": "https://github.com/BYO-NTP/recipes/wiki/FreeBSD-14-GPIO"
+    },
+    {
+      "author": {
+        "name": "Matt Simerson",
+        "email": "",
+        "url": "https://matt.simerson.net/"
+      },
+      "date": "2025-05-22",
+      "os": {
+        "name": "FreeBSD",
+        "version": "14"
+      },
+      "server": {
+        "manufacturer": "Raspberry Pi",
+        "product": "4",
+        "model": "B",
+        "revision": "1.4"
+      },
+      "gnss": {
+        "manufacturer": "Huawei",
+        "product": "WD22UGRC"
+      },
+      "daemon": [
+        {
+          "name": "chrony",
+          "version": "4.6.1",
+          "accuracy": 3.15e-7
+        },
+        {
+          "name": "NTPsec",
+          "version": "1.2.3",
+          "accuracy": 0.000007
+        },
+        {
+          "name": "ntp",
+          "version": "4.2.8",
+          "accuracy": 0.000004
         }
       ],
       "url": "https://github.com/BYO-NTP/recipes/wiki/FreeBSD-14-GPIO"
@@ -317,17 +436,57 @@
         {
           "name": "chrony",
           "version": "4.6.1",
-          "accuracy": 0.00171
+          "accuracy": 0.0001
         },
         {
           "name": "NTPsec",
           "version": "1.2.3",
-          "accuracy": 0.00288
+          "accuracy": 0.0001
         },
         {
           "name": "ntp",
           "version": "4.2.8",
-          "accuracy": 0.014
+          "accuracy": 0.0001
+        }
+      ],
+      "url": "https://github.com/BYO-NTP/recipes/wiki/FreeBSD-14-USB"
+    },
+    {
+      "author": {
+        "name": "Matt Simerson",
+        "email": "",
+        "url": "https://matt.simerson.net/"
+      },
+      "date": "2025-07-11",
+      "os": {
+        "name": "FreeBSD",
+        "version": "14"
+      },
+      "server": {
+        "manufacturer": "Raspberry Pi",
+        "product": "5",
+        "model": "B",
+        "revision": ""
+      },
+      "gnss": {
+        "manufacturer": "Huawei",
+        "product": "WD22UGRC"
+      },
+      "daemon": [
+        {
+          "name": "chrony",
+          "version": "4.6.1",
+          "accuracy": 0.00000332
+        },
+        {
+          "name": "NTPsec",
+          "version": "1.2.3",
+          "accuracy": 0.000042
+        },
+        {
+          "name": "ntp",
+          "version": "4.2.8",
+          "accuracy": 0.00007
         }
       ],
       "url": "https://github.com/BYO-NTP/recipes/wiki/FreeBSD-14-USB"
@@ -523,7 +682,7 @@
         "email": "",
         "url": "https://matt.simerson.net/"
       },
-      "date": "2025-05-16",
+      "date": "2025-07-11",
       "os": {
         "name": "Pi OS",
         "version": "12"
@@ -535,25 +694,25 @@
         "revision": "1.4"
       },
       "gnss": {
-        "manufacturer": "Huawei",
-        "product": "WD22UGRC",
-        "revision": "CT"
+        "manufacturer": "u-blox",
+        "product": "6M",
+        "revision": ""
       },
       "daemon": [
         {
           "name": "chrony",
           "version": "4.6.1",
-          "accuracy": 4.53e-7
+          "accuracy": 2.22e-7
         },
         {
           "name": "NTPsec",
           "version": "1.2.3",
-          "accuracy": 0.000004
+          "accuracy": 0.0000041
         },
         {
           "name": "ntp",
           "version": "4.2.8",
-          "accuracy": 0.000004
+          "accuracy": 0.000031
         }
       ],
       "url": "https://github.com/BYO-NTP/recipes/wiki/Pi-OS-12-GPIO"
@@ -586,12 +745,53 @@
         {
           "name": "NTPsec",
           "version": "1.2.3",
-          "accuracy": 0.0000063
+          "accuracy": 0.000005
         },
         {
           "name": "ntp",
           "version": "4.2.8",
           "accuracy": 0.000003
+        }
+      ],
+      "url": "https://github.com/BYO-NTP/recipes/wiki/Pi-OS-12-GPIO"
+    },
+    {
+      "author": {
+        "name": "Matt Simerson",
+        "email": "",
+        "url": "https://matt.simerson.net/"
+      },
+      "date": "2025-05-16",
+      "os": {
+        "name": "Pi OS",
+        "version": "12"
+      },
+      "server": {
+        "manufacturer": "Raspberry Pi",
+        "product": "4",
+        "model": "B",
+        "revision": "1.4"
+      },
+      "gnss": {
+        "manufacturer": "Huawei",
+        "product": "WD22UGRC",
+        "revision": "CT"
+      },
+      "daemon": [
+        {
+          "name": "chrony",
+          "version": "4.6.1",
+          "accuracy": 2.06e-7
+        },
+        {
+          "name": "NTPsec",
+          "version": "1.2.3",
+          "accuracy": 0.000004
+        },
+        {
+          "name": "ntp",
+          "version": "4.2.8",
+          "accuracy": 0.000004
         }
       ],
       "url": "https://github.com/BYO-NTP/recipes/wiki/Pi-OS-12-GPIO"
@@ -640,6 +840,44 @@
         "email": "",
         "url": "https://matt.simerson.net/"
       },
+      "date": "2025-05-01",
+      "os": {
+        "name": "Pi OS",
+        "version": "12"
+      },
+      "server": {
+        "manufacturer": "Raspberry Pi",
+        "product": "5"
+      },
+      "gnss": {
+        "manufacturer": "Waveshare",
+        "product": "MAX-M8Q GNSS HAT"
+      },
+      "daemon": [
+        {
+          "name": "chrony",
+          "version": "4.6.1",
+          "accuracy": 1.7e-7
+        },
+        {
+          "name": "NTPsec",
+          "version": "1.2.3",
+          "accuracy": 0.000002
+        },
+        {
+          "name": "ntp",
+          "version": "4.2.8",
+          "accuracy": 0.000002
+        }
+      ],
+      "url": "https://github.com/BYO-NTP/recipes/wiki/Pi-OS-12-GPIO"
+    },
+    {
+      "author": {
+        "name": "Matt Simerson",
+        "email": "",
+        "url": "https://matt.simerson.net/"
+      },
       "date": "2025-05-16",
       "os": {
         "name": "Pi OS",
@@ -660,7 +898,7 @@
         {
           "name": "chrony",
           "version": "4.6.1",
-          "accuracy": 4.02e-7
+          "accuracy": 1.74e-7
         },
         {
           "name": "NTPsec",
@@ -671,44 +909,6 @@
           "name": "ntp",
           "version": "4.2.8",
           "accuracy": 0.000003
-        }
-      ],
-      "url": "https://github.com/BYO-NTP/recipes/wiki/Pi-OS-12-GPIO"
-    },
-    {
-      "author": {
-        "name": "Matt Simerson",
-        "email": "",
-        "url": "https://matt.simerson.net/"
-      },
-      "date": "2025-05-01",
-      "os": {
-        "name": "Pi OS",
-        "version": "12"
-      },
-      "server": {
-        "manufacturer": "Raspberry Pi",
-        "product": "5"
-      },
-      "gnss": {
-        "manufacturer": "Waveshare",
-        "product": "MAX-M8Q GNSS HAT"
-      },
-      "daemon": [
-        {
-          "name": "chrony",
-          "version": "4.6.1",
-          "accuracy": 7.26e-7
-        },
-        {
-          "name": "NTPsec",
-          "version": "1.2.3",
-          "accuracy": 0.000002
-        },
-        {
-          "name": "ntp",
-          "version": "4.2.8",
-          "accuracy": 0.000002
         }
       ],
       "url": "https://github.com/BYO-NTP/recipes/wiki/Pi-OS-12-GPIO"
