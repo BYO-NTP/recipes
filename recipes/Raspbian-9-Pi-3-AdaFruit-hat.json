@@ -1,0 +1,29 @@
+{
+  "author": {
+    "name": "mike",
+    "email": "",
+    "url": "https://www.slsmk.com/"
+  },
+  "date": "2018-06-07",
+  "os": {
+    "name": "Raspbian",
+    "version": "9"
+  },
+  "server": {
+    "manufacturer": "Raspberry Pi",
+    "product": "3"
+  },
+  "gnss": {
+    "manufacturer": "Adafruit",
+    "product": "GPS Hat for Pi",
+    "revision": "FBA_2324"
+  },
+  "daemon": [
+    {
+      "name": "ntp",
+      "version": "4.2.8p10",
+      "accuracy": 0.001
+    }
+  ],
+  "url": "https://www.slsmk.com/how-to-setup-a-gps-pps-ntp-time-server-on-raspberry-pi/"
+}
