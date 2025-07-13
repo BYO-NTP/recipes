@@ -11,7 +11,8 @@
   },
   "server": {
     "manufacturer": "Raspberry Pi",
-    "product": "2B"
+    "product": "2",
+    "model": "B"
   },
   "gnss": {
     "manufacturer": "u-blox",

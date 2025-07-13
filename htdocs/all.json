@@ -634,7 +634,7 @@
       },
       "date": "2019-12-04",
       "os": {
-        "name": "Pi OS 11 (Bullseye)",
+        "name": "Pi OS",
         "version": "11"
       },
       "server": {
@@ -696,11 +696,12 @@
       "date": "2025-01-20",
       "os": {
         "name": "Pi OS",
-        "version": ""
+        "version": "12"
       },
       "server": {
         "manufacturer": "Raspberry Pi",
-        "product": "3B"
+        "product": "3",
+        "model": "B"
       },
       "gnss": {
         "manufacturer": "Goouuu Tech",
@@ -1058,17 +1059,17 @@
         {
           "name": "chrony",
           "version": "4.6.1",
-          "accuracy": 0.01
+          "accuracy": 0.00127
         },
         {
           "name": "NTPsec",
           "version": "1.2.3",
-          "accuracy": 0.01
+          "accuracy": 0.0102
         },
         {
           "name": "ntp",
           "version": "4.2.8",
-          "accuracy": 0.01
+          "accuracy": 0.00676
         }
       ],
       "url": "https://github.com/BYO-NTP/recipes/wiki/Pi-OS-12-USB"
@@ -1170,7 +1171,8 @@
       },
       "server": {
         "manufacturer": "Raspberry Pi",
-        "product": "2B"
+        "product": "2",
+        "model": "B"
       },
       "gnss": {
         "manufacturer": "u-blox",
@@ -1483,7 +1485,8 @@
       },
       "server": {
         "manufacturer": "Raspberry Pi",
-        "product": "Model 3B+"
+        "product": "3",
+        "model": "B+"
       },
       "gnss": {
         "manufacturer": "Goouuu Tech",

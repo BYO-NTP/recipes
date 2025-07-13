@@ -11,7 +11,8 @@
   },
   "server": {
     "manufacturer": "Raspberry Pi",
-    "product": "Model 3B+"
+    "product": "3",
+    "model": "B+"
   },
   "gnss": {
     "manufacturer": "Goouuu Tech",

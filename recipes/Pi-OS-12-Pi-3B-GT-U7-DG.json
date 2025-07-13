@@ -7,11 +7,12 @@
   "date": "2025-01-20",
   "os": {
     "name": "Pi OS",
-    "version": ""
+    "version": "12"
   },
   "server": {
     "manufacturer": "Raspberry Pi",
-    "product": "3B"
+    "product": "3",
+    "model": "B"
   },
   "gnss": {
     "manufacturer": "Goouuu Tech",
