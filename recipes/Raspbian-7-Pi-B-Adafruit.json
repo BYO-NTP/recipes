@@ -11,7 +11,7 @@
   },
   "server": {
     "manufacturer": "Raspberry Pi",
-    "product": "Model B"
+    "product": "B"
   },
   "gnss": {
     "manufacturer": "Adafruit",

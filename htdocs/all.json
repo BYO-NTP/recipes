@@ -30,6 +30,44 @@
     },
     {
       "author": {
+        "name": "Matt Simerson",
+        "email": "matt@tnpi.net",
+        "url": "https://matt.simerson.net"
+      },
+      "date": "2025-07-12",
+      "os": {
+        "name": "Debian",
+        "version": "12"
+      },
+      "server": {
+        "manufacturer": "Supermicro",
+        "product": "Xeon E5"
+      },
+      "gnss": {
+        "manufacturer": "u-blox",
+        "product": "M8Q"
+      },
+      "daemon": [
+        {
+          "name": "chrony",
+          "version": "4.6.1",
+          "accuracy": 4.26e-7
+        },
+        {
+          "name": "NTPsec",
+          "version": "1.2.3",
+          "accuracy": 0.000002
+        },
+        {
+          "name": "ntp",
+          "version": "4.2.8",
+          "accuracy": 0.000004
+        }
+      ],
+      "url": "https://github.com/BYO-NTP/recipes/wiki/Debian-12-UART"
+    },
+    {
+      "author": {
         "name": "Guanzhong Chen",
         "email": "",
         "url": "https://quantum5.ca/"
@@ -1313,7 +1351,7 @@
       },
       "server": {
         "manufacturer": "Raspberry Pi",
-        "product": "Model B"
+        "product": "B"
       },
       "gnss": {
         "manufacturer": "Adafruit",
